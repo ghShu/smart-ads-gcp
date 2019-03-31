@@ -17,5 +17,5 @@ To setup gcloud ssh with emacs, please add the following snippet into init.el (f
                (tramp-default-port         22)))
 ```
 With this, gcould compute VM can be accessed with the following command:
-~SPC f f~
-~/gcssh:<username>@<instance-name>:<filename>~ (~filename~ is optional).
+`SPC f f`
+`/gcssh:<username>@<instance-name>:<filename>` (`filename` is optional).
